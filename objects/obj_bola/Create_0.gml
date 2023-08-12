@@ -11,4 +11,18 @@ incremento_vel = 0.5;
 speed = vel;
 
 //definindo a direcao inicial da bola
-direction = random(359);
+function resolve_angle(Q1_ANGLE){
+	var Q2_ANGLE = Q1_ANGLE + 90;
+	var Q3_ANGLE = Q2_ANGLE + 90;
+	var Q4_ANGLE = Q3_ANGLE + 90;
+	
+	var final_angle = choose(
+	random_range(Q1_ANGLE - 20, Q1_ANGLE - 20),
+	random_range(Q2_ANGLE - 20, Q2_ANGLE - 20),
+	random_range(Q3_ANGLE - 20, Q3_ANGLE - 20),
+	random_range(Q4_ANGLE - 20, Q4_ANGLE - 20),
+	)
+	
+	return final_angle;
+}
+direction = resolve_angle(45);
