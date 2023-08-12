@@ -1,0 +1,2 @@
+*.txt text
+*.yy linguist-generated=true
