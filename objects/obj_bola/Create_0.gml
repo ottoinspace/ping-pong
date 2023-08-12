@@ -1,5 +1,6 @@
 /// @description Iniciando a bola
 
+iniciou = false;
 //Aleatorizar a seed
 randomise();
 
@@ -8,7 +9,7 @@ vel = 2;
 incremento_vel = 0.5;
 
 //fazer ela comecar a se mover
-speed = vel;
+speed = 0;
 
 //definindo a direcao inicial da bola
 function resolve_angle(Q1_ANGLE){

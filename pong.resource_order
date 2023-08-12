@@ -5,6 +5,7 @@
     {"name":"Rooms","order":13,"path":"folders/Rooms.yy",},
     {"name":"Sprites","order":14,"path":"folders/Sprites.yy",},
     {"name":"Sounds","order":16,"path":"folders/Sounds.yy",},
+    {"name":"Scripts","order":17,"path":"folders/Scripts.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_colisao","order":5,"path":"sprites/spr_colisao/spr_colisao.yy",},
