@@ -1,6 +1,16 @@
 /// @description Insert description here
 // You can write your code in this editor
+if(global.dois_jogadores == true) exit;
 
-if (keyboard_check_pressed(ord("2"))) {
-	global.dois_jogadores = !global.dois_jogadores;
+vspeed = obj_bola.vspeed;
+
+//limitando a raquete de ir para baixo
+if(vspeed >= vel_ia){
+	vspeed = vel_ia;
 }
+
+if(vspeed <= -vel_ia){
+	vspeed = -vel_ia;
+}
+
+show_debug_message(vspeed);

@@ -9,3 +9,5 @@ if (keyboard_check_pressed(vk_enter) && iniciou == false) {
 	speed = vel;
 	iniciou = true;
 }
+
+if(speed >= 6) speed = 6;

@@ -6,10 +6,18 @@ randomise();
 
 //var de velocidade
 vel = 2;
-incremento_vel = 0.5;
+incremento_vel = 0.2;
 
 //fazer ela comecar a se mover
 speed = 0;
+
+res = modo_dois_jogadores();
+
+if(res == true) {
+	global.dois_jogadores = true;
+}else{
+	global.dois_jogadores =false;	
+}
 
 //definindo a direcao inicial da bola
 function resolve_angle(Q1_ANGLE){
