@@ -9,8 +9,8 @@ if(vspeed >= vel_ia){
 	vspeed = vel_ia;
 }
 
-if(vspeed <= -vel_ia){
-	vspeed = -vel_ia;
+if(vspeed < -vel_ia){
+	vspeed = -vel_ia + .7;
 }
 
 show_debug_message(vspeed);

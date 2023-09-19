@@ -27,8 +27,10 @@
   "resources": [
     {"id":{"name":"spr_colisao","path":"sprites/spr_colisao/spr_colisao.yy",},},
     {"id":{"name":"spr_bola","path":"sprites/spr_bola/spr_bola.yy",},},
+    {"id":{"name":"obj_gol","path":"objects/obj_gol/obj_gol.yy",},},
     {"id":{"name":"rm_partida","path":"rooms/rm_partida/rm_partida.yy",},},
     {"id":{"name":"spr_olhos","path":"sprites/spr_olhos/spr_olhos.yy",},},
+    {"id":{"name":"rm_inicial","path":"rooms/rm_inicial/rm_inicial.yy",},},
     {"id":{"name":"snd_boing","path":"sounds/snd_boing/snd_boing.yy",},},
     {"id":{"name":"spr_raquete","path":"sprites/spr_raquete/spr_raquete.yy",},},
     {"id":{"name":"scr_modo_jogo","path":"scripts/scr_modo_jogo/scr_modo_jogo.yy",},},
@@ -41,6 +43,7 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_partida","path":"rooms/rm_partida/rm_partida.yy",},},
+    {"roomId":{"name":"rm_inicial","path":"rooms/rm_inicial/rm_inicial.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

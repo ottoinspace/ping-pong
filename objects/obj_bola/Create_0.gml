@@ -9,7 +9,7 @@ vel = 2;
 incremento_vel = 0.2;
 
 //fazer ela comecar a se mover
-speed = 0;
+speed = 4;
 
 res = modo_dois_jogadores();
 

@@ -10,7 +10,9 @@
   "ResourceOrderSettings": [
     {"name":"spr_colisao","order":5,"path":"sprites/spr_colisao/spr_colisao.yy",},
     {"name":"spr_bola","order":1,"path":"sprites/spr_bola/spr_bola.yy",},
+    {"name":"obj_gol","order":4,"path":"objects/obj_gol/obj_gol.yy",},
     {"name":"spr_olhos","order":2,"path":"sprites/spr_olhos/spr_olhos.yy",},
+    {"name":"rm_inicial","order":1,"path":"rooms/rm_inicial/rm_inicial.yy",},
     {"name":"spr_raquete","order":3,"path":"sprites/spr_raquete/spr_raquete.yy",},
     {"name":"spr_rosto","order":4,"path":"sprites/spr_rosto/spr_rosto.yy",},
     {"name":"obj_colisao","order":3,"path":"objects/obj_colisao/obj_colisao.yy",},

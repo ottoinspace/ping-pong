@@ -11,3 +11,22 @@ if (keyboard_check_pressed(vk_enter) && iniciou == false) {
 }
 
 if(speed >= 6) speed = 6;
+
+if(!global.fim) {
+	if (global.ponto_jogador1 >= 2) {
+		show_message("jogador1 venceu!!");
+		speed = 0;
+		
+		global.ponto_jogador2 = 0;
+		global.ponto_jogador1 = 0;
+	}else if(global.ponto_jogador2 >= 2) {
+		show_message("jogador2 venceu!!");
+		speed = 0;
+		
+		global.ponto_jogador2 = 0;
+		global.ponto_jogador1 = 0;
+	}
+} else {
+	global.fim = false;
+	game_restart();
+}
